@@ -18,6 +18,7 @@ window = Tk()
 window.title("Calculator")
 window.geometry("235x287")
 window.config(bg=cor1)
+window.resizable(width=FALSE, height=FALSE)
 
 # creating frames
 
